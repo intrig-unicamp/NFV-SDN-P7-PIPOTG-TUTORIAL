@@ -177,6 +177,13 @@ Now you can see the traffic beign generated :)
 
 ### Part 2: Custom headers and validation:
 
+In this part we will explore how to generate packets with custom headers. For this, open the file "main.py" and explore the command below:
+
+```
+Header(name = "myHeader", size = 8) #create a 8 bits cutom header part 1
+customHeader.addField(Field("metadata", 8)) 
+```
+With this command we can create custom headers, with a random value. For specific information in this header, wait for the next versions.
 
 
 
