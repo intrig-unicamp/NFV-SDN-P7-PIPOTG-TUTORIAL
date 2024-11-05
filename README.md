@@ -139,3 +139,30 @@ ping 192.168.0.20 -Q 20
 ```
 
 ## PIPO-TG Practical Part
+
+After clone the repository (step 1 and command below) and set the SDE bash, lets start to edit the main file.
+```
+git clone https://github.com/FilipoGC/PIPO-TG.git
+```
+The main file (main.py) will define the traffic patterns to be generated. In the first exercise we will test Tofino X Tofino, running PIPO-TG in both switches. If you no have two switches, you can run one switch and send the traffic for one external server. Then, open the main file and edit the following line:
+
+```
+(pys port, ID, throughput)
+Gerador.addOutputPort(5, 164, "100G") 
+```
+Change the values for the correct values (port that you want to send the traffic). If you are doing in two Tofinos, you should edit this in both devices, according to the port configs.
+
+Then you can select the protocols, desired throughput and throughput control mode (port shaping or meters). For this edit the following line:
+
+```
+Gerador.addThroughput(3000, "port_shaping")
+```
+The throughput is defined in Mbps, and the protocols are your choice.
+
+After that, we can execute the main, and start the switch with the following commands:
+```
+python3 main.py
+./execut.sh
+```
+
+Now you can see the traffic beign generated :) 
