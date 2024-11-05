@@ -6,13 +6,19 @@ This is the github repository for Tutorial in IEEE NFV-SDN 2024. We will explore
 
 - git 
 - python3
+- matplotlib
+- networkX
+- regex
+- polka-routing
 
 ## Download
 
 ```
-git clone https://github.com/FilipoGC/PIPO-TG.git
 git clone https://github.com/intrig-unicamp/p7.git
-
+cd p7
+git checkout polka
+cd ..
+git clone https://github.com/FilipoGC/PIPO-TG.git
 ```
 
 ## P7 Practical Part
