@@ -1,6 +1,6 @@
 # NFV-SDN-P7-PIPOTG-TUTORIAL
 
-This is the github repository for NFV-SDN Tutorial. We will explore the emulator tool P4 Programmable Patch Panel (P7) [Rodriguez et al. 2022a,Rodriguez et  al. 2022b, Rodriguez et al. 2023a, Rodriguez et al. 2023b], the traffic generation tool PIPO-TG [Costa et al. 2024a, Costa et al. 2024b, Vogt et al. 2024], the convergence to create a complete validation environment, and the used in practices, and as a research target within the networking community. Regarding the practical part, we will cover five principal aspects: *i* the topology definition, *ii* link metrics, *iii* custom pipelines, *iv* traffic generation, and *v* deployment and evaluation.
+This is the github repository for Tutorial in IEEE NFV-SDN 2024. We will explore the emulator tool P4 Programmable Patch Panel (P7) [Rodriguez et al. 2022a,Rodriguez et  al. 2022b, Rodriguez et al. 2023a, Rodriguez et al. 2023b], the traffic generation tool PIPO-TG [Costa et al. 2024a, Costa et al. 2024b, Vogt et al. 2024], the convergence to create a complete validation environment, and the used in practices, and as a research target within the networking community. Regarding the practical part, we will cover five principal aspects: *i* the topology definition, *ii* link metrics, *iii* custom pipelines, *iv* traffic generation, and *v* deployment and evaluation.
 
 ## Requirements
 
