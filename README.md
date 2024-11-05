@@ -140,6 +140,8 @@ ping 192.168.0.20 -Q 20
 
 ## PIPO-TG Practical Part
 
+### Part 1: Basic of PIPO-TG and checking throughput
+
 After clone the repository (step 1 and command below) and set the SDE bash, lets start to edit the main file.
 ```
 git clone https://github.com/FilipoGC/PIPO-TG.git
@@ -166,3 +168,12 @@ python3 main.py
 ```
 
 Now you can see the traffic beign generated :) 
+
+### Part 2: Custom headers and validation:
+
+
+
+
+### Part 3: Advanced use cases (video P4R):
+
+For this part we will se how to reproduce PCAPs using our traffic generator. For this we use our new traffic generator [P4R](https://github.com/intrig-unicamp/P4R). This is a repository in development, so we will show a preliminary example how to reproduce a simple PCAP with our tool. To see the demonstration, please access the [VIDEO DEMONSTRATION](link).
