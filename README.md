@@ -1,6 +1,6 @@
 # NFV-SDN-P7-PIPOTG-TUTORIAL
 
-This is the github repository for Tutorial in IEEE NFV-SDN 2024. We will explore the emulator tool P4 Programmable Patch Panel (P7) [[Rodriguez et al. 2022a](https://opennetworking.org/wp-content/uploads/2022/05/Fabricio-Rodriguez-Final-Slide-Deck-1.pdf), [Rodriguez et  al. 2022b](https://doi.org/10.1145/3546037.3546046), [Rodriguez et al. 2023a](https://doi.org/10.5753/sbrc_estendido.2023.759), [Rodriguez et al. 2023b](https://doi.org/10.1109/NetSoft57336.2023.10175488)], the traffic generation tool PIPO-TG [[Costa et al. 2024a](https://doi.org/10.1109/NOMS59830.2024.10575636), [Costa et al. 2024b](https://doi.org/10.5753/sbrc_estendido.2024.3381), [Vogt et al. 2024](https://doi.org/10.1145/3672202.3673743)], the convergence to create a complete validation environment, and the used in practices, and as a research target within the networking community. Regarding the practical part, we will cover five principal aspects: *i* the topology definition, *ii* link metrics, *iii* custom pipelines, *iv* traffic generation, and *v* deployment and evaluation.
+This is the github repository for Tutorial in IEEE NFV-SDN 2024. We will explore the emulator tool P4 Programmable Patch Panel (P7) [[Rodriguez et al. 2022a](https://opennetworking.org/wp-content/uploads/2022/05/Fabricio-Rodriguez-Final-Slide-Deck-1.pdf), [Rodriguez et  al. 2022b](https://doi.org/10.1145/3546037.3546046), [Rodriguez et al. 2023a](https://doi.org/10.5753/sbrc_estendido.2023.759), [Rodriguez et al. 2023b](https://doi.org/10.1109/NetSoft57336.2023.10175488)], the traffic generation tool PIPO-TG [[Costa et al. 2024a](https://doi.org/10.1109/NOMS59830.2024.10575636), [Costa et al. 2024b](https://doi.org/10.5753/sbrc_estendido.2024.3381), [Vogt et al. 2024](https://doi.org/10.1145/3672202.3673743)], the convergence to create a complete validation environment, and the used in practices, and as a research target within the networking community. Regarding the practical part, we will cover five principal aspects: (*i*) the topology definition, (*ii*) link metrics, (*iii*) custom pipelines, (*iv*) traffic generation, and (*v*) deployment and evaluation.
 
 ## Requirements
 
@@ -137,3 +137,5 @@ To validate a specific route, use ping with Type of Service (ToS). Then, you can
 ```
 ping 192.168.0.20 -Q 20
 ```
+
+## Run PIPO-TG
