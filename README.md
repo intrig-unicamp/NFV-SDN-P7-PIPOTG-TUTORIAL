@@ -15,7 +15,7 @@ git clone https://github.com/intrig-unicamp/p7.git
 
 ```
 
-## Run P7
+## P7 Practical Part
 
 ### Prepare the Environment
 
@@ -138,4 +138,4 @@ To validate a specific route, use ping with Type of Service (ToS). Then, you can
 ping 192.168.0.20 -Q 20
 ```
 
-## Run PIPO-TG
+## PIPO-TG Practical Part
